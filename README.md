@@ -1,2 +1,2 @@
 # Arduino-Analogue-Bar-Charts
-Analogue bar charts using terminal box-drawing characters
+6-channel Analogue bar charts using terminal box-drawing characters
