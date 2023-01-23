@@ -1,3 +1,5 @@
+// https://github.com/Serialcomms/Arduino-Analogue-Bar-Charts/blob/main/BAR_CHART_VT100_GITHUB.ino
+
 /*
   6-channel Analogue Bar Chart terminal plotter.
   ==============================================
