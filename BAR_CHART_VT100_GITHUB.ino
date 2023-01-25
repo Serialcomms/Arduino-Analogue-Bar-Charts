@@ -102,8 +102,8 @@ void loop() {
     Toggle_Builtin_LED();
 
     if (SINE_DEMO_MODE)
-    {
-     
+      
+    { 
       PLOT_DEGREES %= 360;
 
       PLOT_DEGREES += 30;
