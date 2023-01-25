@@ -49,7 +49,7 @@
 bool SINE_DEMO_MODE = false;        // if true plots sine demo bars
 bool ANALOGUE_PULLUPS = false;      // sets all analogue inputs
 unsigned int BAR_HEIGHT = 20;       // recommended value = 20 or 30
-unsigned int PLOT_SCALE = 500;      // sine mode only
+unsigned int PLOT_SCALE = 500;      // sine demo mode only
 // =================================================================
 
 unsigned int SCREEN_ROW ;
@@ -63,11 +63,11 @@ unsigned long NextToggle;
 const char BOX_TOP[] PROGMEM = "╔═════════════════════════════════════════════════════════════════════════════╗";
 const char BOX_MID[] PROGMEM = "╠════════════╤════════════╤════════════╤════════════╤════════════╤════════════╣";
 const char BOX_END[] PROGMEM = "╚════════════╧════════════╧════════════╧════════════╧════════════╧════════════╝";
-const char BOX_VALUES[] =      "║    %04d    │    %04d    │    %04d    │    %04d    │    %04d    │    %04d    ║";
-const char BOX_VERTICAL[] =    "║";
+const char BOX_VALUES[]      = "║    %04d    │    %04d    │    %04d    │    %04d    │    %04d    │    %04d    ║";
+const char BOX_VERTICAL[]    = "║";
 
-const char BLOCK_LIT[] =         "▐██████████▌";    // three separate block characters : 1 * half-right block, 10 * full-blocks, 1* half-left block
-const char BLOCK_OFF[] =         "            ";    // 12 spaces
+const char BLOCK_LIT[] =        "▐██████████▌";    // three separate block characters : 1 * half-right block, 10 * full-blocks, 1* half-left block
+const char BLOCK_OFF[] =        "            ";    // 12 spaces
 
 const char CURSOR_HOME[]="\x1B[H";
 const String ASCII_ESCAPE = "\x1B";
