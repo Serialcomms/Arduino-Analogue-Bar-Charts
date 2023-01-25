@@ -45,7 +45,7 @@
 
 // User-defined settings
 // =================================================================
-bool SINE_DEMO_MODE = true;         // true plots sine bars
+bool SINE_DEMO_MODE = false;        // true plots sine bars
 bool ANALOGUE_PULLUPS = false;      // sets all analogue inputs
 unsigned int BAR_HEIGHT = 20;       // recommended value = 20 or 30
 unsigned int PLOT_SCALE = 500;
