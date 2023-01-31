@@ -60,17 +60,17 @@ char analoguevals[160];
 unsigned int Analogue[6];
 unsigned long NextToggle;
 
-const char BOX_TOP[] PROGMEM = "╔═════════════════════════════════════════════════════════════════════════════╗";
-const char BOX_MID[] PROGMEM = "╠════════════╤════════════╤════════════╤════════════╤════════════╤════════════╣";
-const char BOX_END[] PROGMEM = "╚════════════╧════════════╧════════════╧════════════╧════════════╧════════════╝";
-const char BOX_VALUES[] =      "║    %04d    │    %04d    │    %04d    │    %04d    │    %04d    │    %04d    ║";
-const char BOX_VERTICAL[] =    "║";
+const char BOX_TOP[] PROGMEM = "╔═════════════════════════════════════════════════════════════════════════════╗" ;
+const char BOX_MID[] PROGMEM = "╠════════════╤════════════╤════════════╤════════════╤════════════╤════════════╣" ;
+const char BOX_END[] PROGMEM = "╚════════════╧════════════╧════════════╧════════════╧════════════╧════════════╝" ;
+const char BOX_VALUES[]      = "║    %04d    │    %04d    │    %04d    │    %04d    │    %04d    │    %04d    ║" ;
+const char BOX_VERTICAL[]    = "║" ;
 
-const char BLOCK_LIT[] =         "▐██████████▌";    // three separate block characters : 1 * half-right block, 10 * full-blocks, 1* half-left block
-const char BLOCK_OFF[] =         "            ";    // 12 spaces
+const char BLOCK_LIT[]       =  "▐██████████▌" ;    // 3 separate block characters : 1 * half-right block, 10 * full-blocks, 1* half-left block
+const char BLOCK_OFF[]       =  "            " ;    // 12 spaces
 
-const char CURSOR_HOME[]="\x1B[H";
-const String ASCII_ESCAPE = "\x1B";
+const char CURSOR_HOME[]  = "\x1B[H" ;
+const String ASCII_ESCAPE = "\x1B" ;
 
 void setup() {
 
