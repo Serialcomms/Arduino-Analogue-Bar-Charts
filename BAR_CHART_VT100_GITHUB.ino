@@ -166,7 +166,9 @@ void Build_VT100_Screen()
 
 {
   
-  Serial.print(CURSOR_HOME);        // cursor home top-left
+  Serial.print(ASCII_ESCAPE + "[?25l");     // hide cursor (reduce flicker)
+  
+  Serial.print(CURSOR_HOME);                // cursor home top-left
  
   PrintFlashString(BOX_TOP,true);
 
